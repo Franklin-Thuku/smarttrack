@@ -1,0 +1,107 @@
+
+/*hide all pages by default*/
+#login-page,
+#register-page,
+#dashboard-page {
+    display: none;
+}
+   
+
+/*show only the login page on initial load*/
+body {
+    margin: 0;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+/* PAGE TITLE AT TOP */
+.title {
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #b22222;
+}
+
+/* CENTER ONLY THE LOGIN BOX */
+.center-wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#login-page {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/* CARD BOX */
+
+
+/* INPUTS */
+ input {
+    padding: 12px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 95%;
+}
+
+#register-page {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+span{
+color:red;
+font-weight:lighter;
+font-family:cursive;
+}
+
+
+
+
+/* BUTTON */
+button {
+    background: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    width:100%;
+    transition: 0.2s ease;
+
+}
+
+
+
+
+
+
+button:hover {
+    background: #006666;
+    transform:translateY(-2px);
+
+}
+
+
