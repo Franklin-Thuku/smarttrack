@@ -16,8 +16,7 @@
     <!--contains everything visible on the web page-->
 
 
-    <h1 class="title">SmartTrack Expense Tracker</h1>
-    <!--main heading at the top of the page-->
+  
 
 
     <!--==== LOGIN PAGE ====-->
@@ -59,14 +58,19 @@
 
 
 <!--===== DASHBOARD =====-->
+
+  <nav id="header-bar">
+        <img src="images/logo.png" alt="logo" >
+    </nav>
 <div id="dashboard-page">
+  
     <h2 id="welcome-text">Welcome</h2>
-    <button id="logout-btn">Logout</button>
+   
 
     <form id="expense-form">
         <input type="text" id="title" placeholder="Expense Title" required>
         <input type="number" id="amount" placeholder="Amount" required>
-        <button type="submit">Add Expense</button>
+       <button type="submit" id="expense-btn">Add Expense</button>
     </form>
 
     <ul id="expense-list"></ul>

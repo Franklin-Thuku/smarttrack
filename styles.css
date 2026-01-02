@@ -42,7 +42,7 @@ h2{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: 350px;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     margin-top: 30px;
 }
@@ -90,6 +90,7 @@ button {
     margin: 5px;
     width:100%;
     transition: 0.2s ease;
+    width:fit-content
 
 }
 
@@ -101,6 +102,23 @@ button {
 button:hover {
     background: #006666;
     transform:translateY(-2px);
+
+}
+
+#dashboard-page{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#header-bar{
+    background: white;
+    padding: 0.02px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;  
+    flex-direction: column;
+        
+    
 
 }
 
